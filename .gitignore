@@ -1,0 +1,8 @@
+gcc
+binutils-2.40
+build_gcc
+gmp-6.2.1
+install_dir
+isl-0.24
+mpc-1.2.1
+mpfr-4.1.0
