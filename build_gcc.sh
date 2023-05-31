@@ -7,6 +7,7 @@
 # sudo apt install flex bison textinfo
 # On Msys2 :
 # pacman -S texinfo
+# pacman -S diffutils
 
 set -x -e
 
