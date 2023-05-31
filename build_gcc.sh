@@ -65,6 +65,8 @@ cd mpc-1.2.1
 mkdir build
 cd build
 ../configure --prefix=${INSTALL_DIR} --with-mpfr=${INSTALL_DIR}
+# For Msys2 :
+# ../configure --prefix=${INSTALL_DIR} --with-mpfr=${INSTALL_DIR} --enable-static --disable-shared
 make -j 16
 make install
 cd ../..
