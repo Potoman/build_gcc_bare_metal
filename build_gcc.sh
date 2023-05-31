@@ -5,6 +5,8 @@
 # ./contrib/download_prerequisites
 # On WSL :
 # sudo apt install flex bison textinfo
+# On Msys2 :
+# pacman -S texinfo
 
 set -x -e
 
